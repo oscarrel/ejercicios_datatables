@@ -457,7 +457,9 @@
     <script>
     $(document).ready(function() {
     $('#miTabla').dataTable( {
-        "order": [[ 3, "desc" ]]
+        "paging":   false,
+        "filter": false,
+        "order": [[ 4, "desc" ],[ 3, "asc" ]]
     } );
 } );
     </script>

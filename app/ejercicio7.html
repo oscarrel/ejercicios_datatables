@@ -10,18 +10,19 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/datatables/media/css/jquery.dataTables.css" />
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <!-- build:css(.tmp) styles/dataTables.bootstrap.css -->
+    <link rel="stylesheet" href="styles/dataTables.bootstrap.css">
     <!-- endbuild -->
 </head>
 
 <body>
-
-    <table id="miTabla">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+    <table class="table" id="miTabla">
         <thead>
             <tr>
                 <th>Rendering engine</th>
@@ -443,6 +444,9 @@
             </tr>
         </tfoot>
     </table>
+</div>
+</div>
+</div>
 
 
     <!-- build:js(.) scripts/vendor.js -->
@@ -453,17 +457,12 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-    <!-- build:js({app,.tmp}) scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <!-- build:js({app,.tmp}) scripts/ejercicio6.js -->
+    <script src="scripts/dataTables.bootstrap.js"></script>
+    <script src="scripts/ejercicio6.js"></script>
     <!-- endbuild -->
     <script>
-    $(document).ready(function() {
-    $('#miTabla').dataTable( {
-        "paging":   false,
-        "filter": false,
-        "order": [[ 4, "desc" ],[ 3, "asc" ]]
-    } );
-} );
+    
     </script>
 </body>
 

@@ -1,4 +1,13 @@
 'use strict';
+/* ESTE EN REALIDAD ES EL EJERCICIO 6_2 */
+/* ESTE EN REALIDAD ES EL EJERCICIO 6_2 */
+/* ESTE EN REALIDAD ES EL EJERCICIO 6_2 */
+/* ESTE EN REALIDAD ES EL EJERCICIO 6_2 */
+/* ESTE EN REALIDAD ES EL EJERCICIO 6_2 */
+/* ESTE EN REALIDAD ES EL EJERCICIO 6_2 */
+/* ESTE EN REALIDAD ES EL EJERCICIO 6_2 */
+/* ESTE EN REALIDAD ES EL EJERCICIO 6_2 */
+
 $(document).ready(function() {
     $('#miTabla').dataTable( {
         /*'paging':   false,
